@@ -3,7 +3,7 @@
 NeevAI is a futuristic, decentralized healthcare intelligence system utilizing high-performance edge computing, real-time computer vision analysis, and medical-audio diagnostic layers. It features an interactive, high-fidelity 3D central core driven by WebGL to visualize neural telemetry data seamlessly.
 
 ## 🚀 Live Demo
-Deploy Link: [Insert your final Vercel URL here]
+Deploy Link: https://neevai-peach.vercel.app
 
 ## 🛠️ Tech Stack & Architecture
 
