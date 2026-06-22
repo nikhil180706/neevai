@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "users": [
+    {
+      "id": "6be847bf-f88f-421a-aeaa-90f8d9a49567",
+      "userId": "master@neevai.local",
+      "name": "NeevAI Master Admin",
+      "role": "master_admin",
+      "salt": "78d9d00e1a58039e8e69ccace3b2a893",
+      "passwordHash": "dd18c4baba84ec022123abcace1a65d840d8a335dbaf2a393d4b5403c3e481147572d0a79117c13f1931224f4a3ee2beff7f582178f6a307ad5bb745228e9f46",
+      "createdAt": "2026-06-22T11:20:01.606Z",
+      "lastLoginAt": "2026-06-22T11:20:23.211Z"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "9ae58c424b93fcfc47de87892e2b2002f1ca6bc176abf6be68a2cae5e96dfd15",
+      "userId": "6be847bf-f88f-421a-aeaa-90f8d9a49567",
+      "createdAt": "2026-06-22T11:20:23.211Z",
+      "expiresAt": "2026-06-22T19:20:23.211Z"
+    }
+  ],
+  "pilotRequests": [
+    {
+      "id": "req-bihar-health",
+      "email": "district.health@bihar.gov.in",
+      "organisation": "Bihar District Health Office",
+      "message": "Interested in an anemia and TB screening pilot for 80 ASHA workers.",
+      "status": "reviewing",
+      "createdAt": "2026-06-21T05:20:01.631Z"
+    },
+    {
+      "id": "req-rural-care",
+      "email": "programs@ruralcare.org",
+      "organisation": "Rural Care Foundation",
+      "message": "Need offline cough-risk workflow for villages with poor connectivity.",
+      "status": "new",
+      "createdAt": "2026-06-22T03:20:01.631Z"
+    }
+  ],
+  "operations": [
+    {
+      "id": "op-tb-referral",
+      "name": "Bihar TB referral model",
+      "status": "Healthy",
+      "detail": "92% sync completion"
+    },
+    {
+      "id": "op-cough-classifier",
+      "name": "Jharkhand cough classifier",
+      "status": "Review",
+      "detail": "18 cases awaiting audit"
+    },
+    {
+      "id": "op-device-fleet",
+      "name": "ASHA worker device fleet",
+      "status": "Healthy",
+      "detail": "97% battery-ready"
+    }
+  ],
+  "auditLog": [
+    {
+      "id": "5b1f0aab-e95a-4040-83d8-53dc399b1d0d",
+      "actor": "master@neevai.local",
+      "action": "Signed in to master console.",
+      "createdAt": "2026-06-22T11:20:23.211Z"
+    },
+    {
+      "id": "audit-seed",
+      "actor": "system",
+      "action": "Seeded master admin and demo operations database.",
+      "createdAt": "2026-06-22T11:20:01.631Z"
+    }
+  ]
+}
